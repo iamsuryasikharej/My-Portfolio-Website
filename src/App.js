@@ -6,10 +6,10 @@ import Main from './components/Main';
 import {Link} from 'react-router-dom'
 function App() {
   return (
-    <div className="App"> 
+    <div className="Appa"> 
       <div>
           <Layout>
-          <Header className='header-style' title={<span><span><Link to="/"><div style={{color:'white'}}>Surya Sikha Rej</div></Link></span></span>}>
+          <Header className='header-style' title={<Link to="/"  style={{color:'white',textDecoration:'none'}}>Surya Sikha Rej</Link>}>
             <Navigation>
                         
               <Link to="/resume">Resume</Link>
@@ -29,7 +29,7 @@ function App() {
             </Navigation>
           </Drawer>
           <Content>
-            <Main></Main>
+            <Main ></Main>
           </Content>
           
          

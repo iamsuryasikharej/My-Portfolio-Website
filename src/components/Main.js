@@ -6,7 +6,7 @@ import Projects from './Projects'
 import Aboutme from './Aboutme'
 import { Route,Switch } from 'react-router-dom'
 
-const Main=()=> (<Switch>
+const Main=()=> (<Switch >
     <Route exact path="/" component={Landingpage}></Route>
     <Route  path="/resume" component={Resume}></Route>
     <Route  path="/contact" component={Contact}></Route>
