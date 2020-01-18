@@ -1,26 +1,40 @@
-.App
+.Appa
 {
-  overflow-y:scroll;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+  
+}
+
+
+.particles-style
+{
+height: 100%;
+width: 100%;
+z-index: 11;
 }
 .header-style{
-background: #23074d;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom,  #000000,rgb(39, 9, 9));
+float: left;
 
 }
+
 .body-style
 {
- background: #23074d;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #cc5333, #23074d);
-text-align: center;
-position: -webkit-sticky;
-top: 50;
-left: 0;
+ /* background: #23074d;   
+background: -webkit-linear-gradient(to right, #cc5333, #23074d); */
+background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, rgb(134, 42, 42), #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-width: 100%;
-height: auto;
-z-index: 1;
+
+text-align: center;
+position: relative;
 
 
 
@@ -28,8 +42,14 @@ z-index: 1;
 .avatar-style
 {
   
-  height: 250px;
+  height: 400px;
   padding-top: 5em;
+}
+.img-style :hover
+{
+  
+color: black;
+opacity: .8;
 }
 .banner-style
 {
@@ -39,7 +59,7 @@ z-index: 1;
   margin: 0px auto;
   border-radius: 10px;
   
-   
+   z-index: 10;
 }
 .banner-style h1
 {
@@ -84,7 +104,24 @@ z-index: 1;
 }
 .social-style :hover
 {
-background:rgb(219, 15, 219);
+background:black;
 opacity: .7;
 }
 
+
+.catagory-tabs
+{
+  background: linear-gradient(to right, #64044f, #000000);
+  height: 100%;
+  width: 100%;
+}
+
+.drawer-style
+{
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom,  #000000,rgb(39, 9, 9));
+    height: 100%;
+    width: 100%;
+
+}

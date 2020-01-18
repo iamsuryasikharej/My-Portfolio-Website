@@ -9,7 +9,7 @@ export class Projects extends Component {
     {
         if(this.state.activeTab==0){
             return( 
-            <Card shadow={10} style={{ width: '512px', margin: 'auto' }}>
+            <Card shadow={100} style={{ width: '512px', margin: 'auto', }}>
                     <CardTitle style={{ color: 'wheat', height: '176px', background: 'url(https://www.oracle.com/a/ocom/img/hp11-intl-java-logo.jpg) center / cover' }}>Welcome</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -80,10 +80,10 @@ export class Projects extends Component {
         return (
             <div className="catagory-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Java</Tab>
-                    <Tab>DS & Algo</Tab>
-                    <Tab>J2EE</Tab>
-                    <Tab>React js</Tab>
+                    <Tab style={{ color: 'white' }}>java</Tab>
+                    <Tab style={{color:'white'}}>DS & Algo</Tab>
+                    <Tab style={{ color: 'white' }}>J2EE</Tab>
+                    <Tab style={{ color: 'white' }}>React js</Tab>
                 </Tabs>
                 <section className='projects-grid'>
                     <div>{this.toRender()}</div>

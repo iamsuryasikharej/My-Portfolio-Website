@@ -1,15 +1,24 @@
 import React from 'react'
+import Particles from 'react-particles-js';
 
 import { Grid, Cell } from 'react-mdl'
 import picture from'../assets/46563058.jpg'
 function Landingpage() {
+
+   
     return (
+      
         <div style={{width:'100%',margin:'auto'}}>
+        
+          
+
         <Grid className="body-style">
+              
         <Cell col={12}>
-                    <img className="avatar-style" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8_hVrTLsijzhrN0mXMROFrTOSMVXxh5FlRK1S_-R5-7BbIX5N&s"/>
+                    <a className='img-style' href="https://www.instagram.com"><img className="avatar-style" src={picture}></img></a>   
                     
             <div className="banner-style">
+                        
                         <h1>Full Stack Web Developer</h1>
                         <hr/>
                         <p>Java | Advanced Java | Javascript | DBMS | SQL</p>
@@ -27,9 +36,10 @@ function Landingpage() {
 
 
                 </div>
+                
         </Grid>
+          
         
-            
         </div>
     )
 }
