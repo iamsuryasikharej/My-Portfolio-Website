@@ -8,18 +8,14 @@
 }
 
 
-.particles-style
-{
-height: 100%;
-width: 100%;
-z-index: 11;
-}
+
 .header-style{
 
 
-background: #EB5757;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom,  #000000,rgb(39, 9, 9));
+background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 float: left;
 
 }
@@ -28,9 +24,9 @@ float: left;
 {
  /* background: #23074d;   
 background: -webkit-linear-gradient(to right, #cc5333, #23074d); */
-background: #EB5757;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, rgb(134, 42, 42), #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 text-align: center;
@@ -111,17 +107,60 @@ opacity: .7;
 
 .catagory-tabs
 {
-  background: linear-gradient(to right, #64044f, #000000);
+ background: gray;
   height: 100%;
   width: 100%;
 }
 
 .drawer-style
 {
-    background: #EB5757;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom,  #000000,rgb(39, 9, 9));
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height: 100%;
     width: 100%;
 
+}
+.contactPage-style
+{
+ 
+  background :grey;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  justify-content: center;
+  padding-top: 4em;
+}
+.grid-style
+{
+justify-content: center;
+text-align: center;
+width:80%;
+height:auto;
+background: rgb(223, 219, 219);
+color:black;
+border:2px solid rgb(255, 72, 72);
+overflow-wrap: break-word;
+}
+.grid-style h2
+{
+  font-family: 'Anton', sans-serif;
+}
+.grid-style h1
+{
+  font-size: medium;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bolder;
+}
+.grid-style hr{
+  border-top: dotted 5px black;
+  width:50%;
+  margin:auto;
+}
+.list-style i
+{
+  font-size: 30px;
+  padding-right: 5rem;
+  overflow-wrap: break-word;
 }

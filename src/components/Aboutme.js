@@ -1,10 +1,8 @@
 import React from 'react'
-
+import {Grid,Cell} from 'react-mdl'
 function Aboutme() {
     return (
-        <div>
-            <h1>About me</h1>
-        </div>
+        <div>abt me</div>
     )
 }
 
