@@ -21,7 +21,7 @@ function App() {
             <Link to="/resume">Resume</Link>
             <Link to="/project">Projects</Link>
             <Link to="/contact">Contact</Link>
-            <Link to="/aboutme">About Me</Link>
+            
 
 
           </Navigation>
@@ -31,7 +31,6 @@ function App() {
             <Link to="/resume" style={{ color: 'white'}}>Resume</Link>
             <Link to="/project" style={{ color: 'white' }}>Projects</Link>
             <Link to="/contact" style={{ color: 'white' }}>Contact</Link>
-            <Link to="/aboutme" style={{ color: 'white' }}>About Me</Link>
           </Navigation>
         </Drawer>
         

@@ -12,8 +12,7 @@ export class Projects extends Component {
             <Card shadow={100} style={{ width: '512px', margin: 'auto', }}>
                     <CardTitle style={{ color: 'wheat', height: '176px', background: 'url(https://www.oracle.com/a/ocom/img/hp11-intl-java-logo.jpg) center / cover' }}>Welcome</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris sagittis pellentesque lacus eleifend lacinia...
+                   {}
                  </CardText>
                 <CardActions border>
                         <Button colored><a href="https://github.com/iamsuryasikharej/React-App-demo" target="_blank">Get Started</a></Button>
@@ -28,8 +27,7 @@ export class Projects extends Component {
                 <Card shadow={10} style={{ width: '512px', margin: 'auto' }}>
                     <CardTitle style={{ color: 'wheat', height: '176px', background: 'url("https://mindorks.s3.ap-south-1.amazonaws.com/courses/ds-algo-course-card.jpg") center / cover' }}>Welcome</CardTitle>
                     <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                        {}
                  </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/iamsuryasikharej/React-App-demo" target="_blank">Get Started</a></Button>
@@ -45,8 +43,7 @@ export class Projects extends Component {
                 <Card shadow={10} style={{ width: '512px', margin: 'auto' }}>
                     <CardTitle style={{ color: 'wheat', height: '176px', background: 'url(https://onlineitguru.com/wp-content/uploads/2019/09/J2EE.png) center / cover' }}>Welcome</CardTitle>
                     <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                       {}
                  </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/iamsuryasikharej/React-App-demo" target="_blank">Get Started</a></Button>
@@ -61,8 +58,8 @@ export class Projects extends Component {
             <Card shadow={10} style={{ width: '512px', margin: 'auto' }}>
                 <CardTitle style={{ color: 'wheat', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover' }}>Welcome</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris sagittis pellentesque lacus eleifend lacinia...
+                  
+                {}
                  </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/iamsuryasikharej/React-App-demo" target="_blank">Get Started</a></Button>

@@ -164,3 +164,88 @@ overflow-wrap: break-word;
   padding-right: 5rem;
   overflow-wrap: break-word;
 }
+
+
+
+.cell1-style
+{
+  background-color:  rgb(223, 219, 219);
+  color:black;
+  
+ 
+ 
+  font-weight: bolder;
+  min-height: 100%;
+  position: relative;
+  text-align: center;
+ 
+}
+.resume-picture-style
+{
+  padding-top: 2em;
+  height: 200px;
+  width: 200px;
+
+ 
+}
+.resume-div-style
+{
+  text-align: left;
+}
+.myname-resume-style{
+  padding-top: 2em;
+  font-size: xx-large;
+   font-family: 'Anton', sans-serif;
+   font-weight: bold;
+   
+   padding-left:1em;
+}
+
+.programmer-style
+{
+  
+  font-family: 'Oxygen', sans-serif;
+  color: dimgray;
+  padding-left: 2em;
+  
+  
+}
+
+.about-me-resume-style
+{
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 4em;
+  overflow-wrap: break-word;
+  height: 100%;
+  width: 350px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.cell2-resume-div-style
+{
+  background-color:dimgray;
+
+  color:black;
+  padding: 2em;
+}
+
+.edu-style
+{
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+  color:snow;
+}
+
+.edu-classcom-style
+{
+  color:snow
+}
+
+.divdiv1
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}

@@ -13,7 +13,7 @@ const Main=()=> (<Switch >
     <Route  path="/resume" component={Resume}></Route>
     <Route  path="/contact" component={Contact}></Route>
     <Route  path="/project" component={Projects}></Route>
-    <Route  path="/aboutme" component={Aboutme}></Route>
+    
   
     </Switch>)
 export default Main
