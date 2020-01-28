@@ -16,7 +16,8 @@ export class Resume extends Component {
                             <div className="about-me-resume-style">
 
                                 <h>Hey There,<br></br>Surya here. I am a fresh garduate looking for a role as a software developer. I am passionate coder and problem solver. I love learning new technologies and implementing them in projects.</h>
-                            
+                            </div>
+                            <div className="resume-div-style-2">
                             <hr style={{ border:"1px  solid  #ad5389" , width:"50%"}}></hr>
                             <h5 style={{fontWeight:"bolder"}}>Address</h5>
                             <p>India</p>
